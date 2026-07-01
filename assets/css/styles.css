@@ -24,8 +24,16 @@ h1 {
 	border-top: 2px solid var(--deep-mocha);
 	border-bottom: 2px solid var(--deep-mocha);
 }
-
+/* 
 .col, .col-4, .col-8 {
 	border: 1px solid red;	
+} */
+
+.dateline {
+	font-size: 1.6em;
 }
 
+.article {
+	padding: 10px;
+	border-bottom: 2px double var(--deep-mocha);
+}
