@@ -1,7 +1,28 @@
 /* styles.css */
 
-* {
-	font-family: Arial;
+:root {
+	--deep-mocha: #483d3f;
+	--blue-bell: #058ed9;
+	--egg-shell: #f4ebd9;
+	--grey-olive: #a39a92;
+	--ash-brown: #77685d;
+}
+
+body {
+	font-family: "Tinos", serif;
+	background-color: var(--egg-shell);
+	font-weight: 400;
+	font-size: 1.2em;
+	padding-top: 25px;
+}
+
+h1 {
+	font-family: "Manufacturing Consent", system-ui;
+	color: var(--deep-mocha);
+	font-weight: 800;
+	font-size: 4em;
+	border-top: 2px solid var(--deep-mocha);
+	border-bottom: 2px solid var(--deep-mocha);
 }
 
 .col, .col-4, .col-8 {
